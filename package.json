@@ -1,0 +1,36 @@
+{
+  "name": "test-banner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier —write src/**/*.js",
+    "start": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kohan123/test-banner.git"
+  },
+  "author": "Danil Kokhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kohan123/test-banner/issues"
+  },
+  "homepage": "https://github.com/kohan123/test-banner#readme",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1",
+    "html-webpack-plugin": "^5.3.2",
+    "prettier": "^2.3.2",
+    "prettier-webpack-plugin": "^1.2.0",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.1"
+  }
+}
