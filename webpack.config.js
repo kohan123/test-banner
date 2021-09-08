@@ -21,6 +21,9 @@ module.exports = {
   module: {
     rules: [
       { test: /\.handlebars$/, loader: "handlebars-loader" },
+      { test: /\.(png|jpg|jpeg|svg|gif)$/,
+        use: "file-loader"
+      },
       {
         test: /\.s[ac]ss$/i,
         use: [

@@ -21,6 +21,7 @@
   "homepage": "https://github.com/kohan123/test-banner#readme",
   "devDependencies": {
     "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
     "handlebars": "^4.7.7",
     "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^5.3.2",

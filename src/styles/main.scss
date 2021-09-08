@@ -1,5 +1,25 @@
 @import "./variables.scss";
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../fonts/SFPRODISPLAYBOLD.OTF");
+  }
+body {
+    margin: 0 auto;
+    width: 320px;
+    height: 568px;
 
-.red {
-    color: $red;
+.close {
+   height: 32px;
+   width: 32px;
+}
+.title h1 {
+    font-family: "SFProDisplay";
+    font-size: 24px;
+    margin: 0 auto;
+   
+}
+.title {
+    display: flex;
+    width: 100%;
+}
 }
