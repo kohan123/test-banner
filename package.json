@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier —write src/**/*.js",
+    "prettier": "prettier --write ./src/**/*.{js,handlebars,scss}",
     "start": "webpack serve",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
