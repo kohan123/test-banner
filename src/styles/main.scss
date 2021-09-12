@@ -1,25 +1,107 @@
 @import "./variables.scss";
 @font-face {
-    font-family: "SFProDisplay";
-    src: url("../fonts/SFPRODISPLAYBOLD.OTF");
-  }
-body {
-    margin: 0 auto;
-    width: 320px;
-    height: 568px;
+  font-family: "Title";
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF");
+}
+  @font-face {
+    font-family: "Text";
+    src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 
-.close {
-   height: 32px;
-   width: 32px;
 }
-.title h1 {
-    font-family: "SFProDisplay";
+body {
+  margin: 0 auto;
+  width: 320px;
+  height: 568px;
+
+  header {
+    height: 40%;
+    background-repeat: no-repeat;
+  }
+
+  .close {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    right: 42.2%;
+    bottom: 91.7%;
+  }
+  .title h1 {
+    font-family: "Title";
     font-size: 24px;
-    margin: 0 auto;
-   
-}
-.title {
+    width: 100%;
+    color: $aliceblue;
+    text-align: center;
+    position: relative;
+    line-height: 41px;
+    letter-spacing: 0.26px;
+    margin-top: 45px;
+    margin-left: 18px;
+  }
+  .title {
     display: flex;
     width: 100%;
-}
+    height: 93px;
+  }
+  .list {
+      display: flex;
+  }
+  .list ul {
+      font-family: "Text";
+      color: $aliceblue;
+      font-size: 14px;
+      margin: 0px;
+      padding-left: 20px;
+      width: 100%;
+      position: relative;
+
+  }
+  .list li {
+      list-style: none;
+      margin-bottom: 12px;
+      line-height: 14.06px;
+  }
+  .woman {
+      position: absolute;
+      top: 8.5%;
+      right: 45.2%;
+  }
+  .comments {
+    height: 115px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #F3F2F9;
+    border-radius: 5%;
+    margin-top: 4px;
+  }
+ .flex_container {
+   display: flex;
+ }
+ .comment_block {
+   height: 40px;
+ }
+ .comments_title {
+   font-size: 17px;
+   font-family: "Text";
+   font-weight: 600;
+   margin-left: 17px;
+   margin-bottom: 0px;
+   height: 20px;
+   margin-top: 13px;
+ }
+ .name {
+  margin-left: 122px;
+  color:rgb(153, 152, 152);
+ }
+ .stars {
+   margin-left: 15px;
+
+   .star {
+     padding-left: 2px;
+   }
+ }
+ .comments_text {
+   margin: 0px;
+   margin-left: 10px;
+   font-size: 15px;
+ }
 }
