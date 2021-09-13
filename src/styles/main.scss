@@ -3,10 +3,9 @@
   font-family: "Title";
   src: url("../fonts/SFPRODISPLAYBOLD.OTF");
 }
-  @font-face {
-    font-family: "Text";
-    src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
-
+@font-face {
+  font-family: "Text";
+  src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 }
 body {
   margin: 0 auto;
@@ -16,14 +15,15 @@ body {
   header {
     height: 40%;
     background-repeat: no-repeat;
+    position: relative;
   }
 
   .close {
     height: 32px;
     width: 32px;
     position: absolute;
-    right: 42.2%;
-    bottom: 91.7%;
+    right: 3.2%;
+    bottom: 81.7%;
   }
   .title h1 {
     font-family: "Title";
@@ -43,65 +43,76 @@ body {
     height: 93px;
   }
   .list {
-      display: flex;
+    display: flex;
   }
   .list ul {
-      font-family: "Text";
-      color: $aliceblue;
-      font-size: 14px;
-      margin: 0px;
-      padding-left: 20px;
-      width: 100%;
-      position: relative;
-
+    font-family: "Text";
+    color: $aliceblue;
+    font-size: 14px;
+    margin: 0px;
+    padding-left: 20px;
+    width: 100%;
+    position: relative;
   }
   .list li {
-      list-style: none;
-      margin-bottom: 12px;
-      line-height: 14.06px;
+    list-style: none;
+    margin-bottom: 12px;
+    line-height: 14.06px;
   }
   .woman {
-      position: absolute;
-      top: 8.5%;
-      right: 45.2%;
+    position: absolute;
+    top: 18.5%;
+    right: 22.2%;
   }
   .comments {
-    height: 115px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #F3F2F9;
+    background-color: #f3f2f9;
     border-radius: 5%;
     margin-top: 4px;
+    overflow: hidden;
   }
- .flex_container {
-   display: flex;
- }
- .comment_block {
-   height: 40px;
- }
- .comments_title {
-   font-size: 17px;
-   font-family: "Text";
-   font-weight: 600;
-   margin-left: 17px;
-   margin-bottom: 0px;
-   height: 20px;
-   margin-top: 13px;
- }
- .name {
-  margin-left: 122px;
-  color:rgb(153, 152, 152);
- }
- .stars {
-   margin-left: 15px;
+  .flex_container {
+    display: flex;
+  }
+  .comment_block {
+    height: 40px;
+  }
+  .comments_title {
+    font-size: 17px;
+    font-family: "Text";
+    font-weight: 600;
+    margin-left: 17px;
+    margin-bottom: 0px;
+    height: 20px;
+    margin-top: 13px;
+  }
+  .name {
+    margin-left: 122px;
+    color: rgb(153, 152, 152);
+  }
+  .stars {
+    margin-left: 15px;
 
-   .star {
-     padding-left: 2px;
-   }
- }
- .comments_text {
-   margin: 0px;
-   margin-left: 10px;
-   font-size: 15px;
- }
+    .star {
+      padding-left: 2px;
+    }
+  }
+  .comments_text {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  figure {
+    margin: 0px;
+    position: relative;
+    right: 280px;
+    width: 500%;
+  }
+  .bg_style {
+    background-color: #f3f2f9;
+    border-radius: 5%;
+    width: 280px;
+    height: 115px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
