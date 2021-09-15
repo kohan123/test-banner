@@ -16,6 +16,7 @@ export const initSlider = () => {
     autoplayButtonOutput: false,
     center: true,
     preventScrollOnTouch: "force",
+    nav: false,
   });
 
   slider.events.on("touchStart", () => {

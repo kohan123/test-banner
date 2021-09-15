@@ -7,6 +7,16 @@
   font-family: "Text";
   src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 }
+@media (prefers-color-scheme: dark) {
+  header {
+    background-color: black;
+
+    .comment.bg_style {
+      background: linear-gradient(225deg, #262526 0%, #19181A 100%);
+      color: white;
+    }
+  }
+}
 body {
   margin: 0 auto;
   width: 320px;
@@ -65,8 +75,6 @@ body {
     right: 22.2%;
   }
   .comments {
-    background-color: #f3f2f9;
-    border-radius: 5%;
     margin-top: 4px;
     overflow: hidden;
   }
@@ -111,4 +119,69 @@ body {
     width: 280px;
     height: 115px;
   }
+  .comment {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .prices {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 7px;
+    justify-content: center;
+  }
+  .price {
+    background-color: #f3f2f9;
+    border-radius: 5px;
+    font-family: "Text";
+    margin-right: 4px;
+    margin-left: 4px;
+    flex-basis: 33%;
+    height: 130px;
+    flex-direction: column;
+    justify-content: space-between;
+    &.selected {
+      background: linear-gradient(225deg, #894AC9 0%, #4D46B1 100%);
+      backdrop-filter: blur(9.06094px);
+    }
+
+    .date {
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #1a1a1a;
+      font-family: "Title";
+      font-weight: bold;
+    }
+
+    .price_month {
+      font-size: 11px;
+      line-height: 13px;
+      text-align: center;
+      letter-spacing: -0.3px;
+      color: #1a1a1a;
+    }
+    .orange_bg {
+      background-color: #fca759;
+    }
+  }
+  .btn_container {
+    width: 88%;
+    margin: 0 auto;
+
+    .btn {
+      width: 100%;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.0352px;
+      color: #ffffff;
+      background: linear-gradient(225deg, #542285 0%, #222266 100%);
+      border-radius: 5px;
+      border: none;
+      margin-top: 16px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+  }
+
 }

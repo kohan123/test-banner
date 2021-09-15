@@ -17,7 +17,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
-  plugins: [new HtmlWebpackPlugin(), new PrettierPlugin(prettierConfig)],
+  plugins: [new HtmlWebpackPlugin()],
   module: {
     rules: [
       { test: /\.handlebars$/, loader: "handlebars-loader" },

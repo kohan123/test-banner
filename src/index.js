@@ -7,6 +7,7 @@ import image2 from "./assets/group2.png";
 import image3 from "./assets/bitmap.png";
 import image4 from "./assets/Star.png";
 import { initSlider } from "./templates/scroll";
+import { registerClicks } from "./scripts/price";
 
 document.addEventListener("DOMContentLoaded", function () {
   var div = document.createElement("div");
@@ -19,4 +20,5 @@ document.addEventListener("DOMContentLoaded", function () {
   document.body.appendChild(div);
 
   initSlider();
+  registerClicks();
 });
