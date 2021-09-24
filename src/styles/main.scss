@@ -274,3 +274,29 @@ body {
     right: 6%;
   }
 }
+@media (min-width: 375px) and (max-width: 414px) {
+  body {
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+
+    header {
+      background-size: 375px;
+    }
+
+    .woman {
+      height: 270px;
+      top: 15.5%;
+      right: 15.2%;
+    }
+    .title h1 {
+      font-size: 34px;
+      line-height: 41px;
+      margin-top: 71px;
+      margin-left: 0px;
+    }
+    .close {
+      top: 7%;
+    }
+  }
+}
