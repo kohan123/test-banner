@@ -19,7 +19,7 @@ export const initSlider = () => {
     mouseDrag: true,
     swipeAngle: false,
     speed: 400,
-    autoplayTimeout: 200000,
+    autoplayTimeout: 5000,
     fixedWidth: 280,
     autoplay: true,
     gutter: 3,
