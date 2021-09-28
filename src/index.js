@@ -9,6 +9,9 @@ import image4 from "./assets/Star.png";
 import image5 from "./assets/bottom.png";
 import image6 from "./assets/top.png";
 import image7 from "./assets/group6.png";
+import image8 from "./assets/group6medium.png";
+import image9 from "./assets/top2.png";
+import image10 from "./assets/bottom2.png";
 import { initSlider } from "./templates/scroll";
 import { registerClicks } from "./scripts/price";
 
@@ -22,6 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
     image5,
     image6,
     image7,
+    image8,
+    image9,
+    image10,
   });
   document.body.appendChild(div);
 

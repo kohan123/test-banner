@@ -273,6 +273,15 @@ body {
     position: absolute;
     right: 6%;
   }
+  .group_medium {
+    display: none;
+  }
+  .graph_bottom_medium {
+    display: none;
+  }
+  .graph_top_medium {
+    display: none;
+  }
 }
 @media (min-width: 375px) and (max-width: 414px) {
   body {
@@ -285,8 +294,8 @@ body {
     }
 
     .woman {
-      height: 270px;
-      top: 15.5%;
+      height: 281px;
+      top: 12.5%;
       right: 15.2%;
     }
     .title h1 {
@@ -296,7 +305,38 @@ body {
       margin-left: 0px;
     }
     .close {
-      top: 7%;
+      top: 6%;
+    }
+    .group_medium {
+      position: absolute;
+      top: 24%;
+      right: 8%;
+      display: block;
+    }
+    .group {
+      display: none;
+    }
+    .graph_top {
+      display: none;
+    }
+    .graph_bottom {
+      display: none;
+    }
+    .graph_bottom_medium {
+      position: absolute;
+      display: block;
+      top: 20%;
+    }
+    .graph_top_medium {
+      position: absolute;
+      display: block;
+      top: 20%;
+    }
+    .list li {
+      padding: 16px 0;
+    }
+    .title {
+      margin-bottom: 45px;
     }
   }
 }
