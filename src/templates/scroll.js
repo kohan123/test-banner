@@ -11,12 +11,15 @@ export const initSlider = () => {
       375: {
         fixedWidth: 335,
       },
+      414: {
+        fixedWidth: 374,
+      }
     },
     slideBy: "page",
     mouseDrag: true,
     swipeAngle: false,
     speed: 400,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 200000,
     fixedWidth: 280,
     autoplay: true,
     gutter: 3,

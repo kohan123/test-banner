@@ -106,8 +106,9 @@ body {
   }
   .woman {
     position: absolute;
-    top: 9.5%;
-    right: 22.2%;
+    top: 11.5%;
+    right: 24.2%;
+    height: 161px;
   }
   .comments {
   }
@@ -206,7 +207,7 @@ body {
     .price_month2 {
       margin-bottom: 8px;
       font-size: 10px;
-      margin-left: 13px;
+      text-align: center;
     }
     .orange_bg {
       background-color: #fca759;
@@ -283,6 +284,29 @@ body {
     display: none;
   }
 }
+
+@media (max-width: 320px) {
+  body {
+    .woman {
+      top: 11.5%;
+      right: 24.2%;
+      height: 161px;
+    }
+
+    .prices {
+      margin-top: 17px;
+    }
+
+    .comment {
+      height: 110px;
+    }
+
+    .btn_container .btn {
+      margin-top: 11px;
+    }
+  }
+}
+
 @media (min-width: 375px) and (max-width: 414px) {
   body {
     width: 375px;
@@ -294,23 +318,23 @@ body {
     }
 
     .woman {
-      height: 281px;
-      top: 10.5%;
-      right: 15%;
+      height: 247px;
+      top: 13.5%;
+      right: 22%;
     }
     .title h1 {
       font-size: 34px;
       line-height: 41px;
-      margin-top: 71px;
+      margin-top: 79px;
       margin-left: 0px;
     }
     .close {
-      top: 5%;
+      top: 6%;
       right: 3%;
     }
     .group_medium {
       position: absolute;
-      top: 20%;
+      top: 21%;
       right: 8%;
       display: block;
     }
@@ -326,18 +350,21 @@ body {
     .graph_bottom_medium {
       position: absolute;
       display: block;
-      top: 16.8%;
+      top: 17.8%;
     }
     .graph_top_medium {
       position: absolute;
       display: block;
-      top: 16.8%;
+      top: 17.8%;
     }
     .list li {
       padding: 16px 0;
     }
     .list {
-      margin-bottom: 19px;
+      margin-bottom: 17px;
+    }
+    .list ul {
+      margin-top: 9px;
     }
     .title {
       margin-bottom: 45px;
@@ -353,6 +380,17 @@ body {
       font-size: 17px;
       padding-bottom: 25px;
       padding-left: 6px;
+    }
+    .comment {
+      height: 145px;
+    }
+    .comments_title {
+      font-size: 15px;
+      margin-top: 20px;
+      letter-spacing: 1.5px;
+    }
+    .stars {
+      margin-top: 4px;
     }
     .name {
       margin-left: 170px;
@@ -411,5 +449,126 @@ body {
         padding-bottom: 20px;
       }
     }
+  }
+}
+
+@media (min-width: 414px) {
+  body {
+    width: 414px;
+
+    .title h1 {
+      margin-top: 81px;
+    }
+
+    .woman {
+      height: 296px;
+      top: 13%;
+      right: 20%;
+    }
+
+    .close {
+      top: 6%;
+    }
+
+    .graph_top_medium {
+      top: 26px;
+      width: 100%;
+    }
+
+    .graph_bottom_medium {
+      top: 20px;
+      width: 100%;
+    }
+
+    .graph_bottom,
+    .graph_top {
+      width: 100%;
+      top: 20px;
+    }
+
+    .group {
+      margin-top: 25px;
+      height: 131px;
+    }
+
+    .group_medium {
+      top: 57px;
+      right: 14px;
+      height: 154px;
+    }
+
+    .list {
+      display: block;
+      .graph {
+        position: relative;
+      }
+    }
+
+    .list ul {
+      padding-top: 30px;
+      padding-left: 33px;
+
+      li {
+        line-height: 15px;
+      }
+    }
+
+    .comments {
+      padding-top: 20px;
+
+      .comment {
+        height: 145px;
+        .comment_block {
+          justify-content: space-between;
+          .name {
+            padding-right: 20px;
+          }
+        }
+
+        .comments_title {
+          font-size: 15px;
+          font-weight: 400;
+          margin-top: 19px;
+          letter-spacing: 1.5px;
+        }
+
+        .stars {
+          margin-top: 6px;
+        }
+
+        .comments_text {
+          font-size: 15px;
+          line-height: 20px;
+          padding-top: 5px;
+          letter-spacing: 1.1px;
+        }
+      }
+    }
+
+    .prices {
+      margin-top: 28px;
+
+      .date {
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+
+      .price_month2 {
+        margin-bottom: 20px;
+      }
+    }
+
+    .btn_container {
+      width: 90%;
+      .btn {
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 415px) {
+  header {
+    background-size: contain;
   }
 }
