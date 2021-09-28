@@ -12,6 +12,7 @@ import image7 from "./assets/group6.png";
 import image8 from "./assets/group6medium.png";
 import image9 from "./assets/top2.png";
 import image10 from "./assets/bottom2.png";
+import image11 from "./assets/rectangle24.png";
 import { initSlider } from "./templates/scroll";
 import { registerClicks } from "./scripts/price";
 
@@ -28,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     image8,
     image9,
     image10,
+    image11,
   });
   document.body.appendChild(div);
 
