@@ -149,8 +149,6 @@ body {
   .bg_style {
     background-color: #f3f2f9;
     border-radius: 5%;
-    width: 280px;
-    height: 115px;
   }
   .comment {
     margin-left: 2px;
@@ -290,12 +288,12 @@ body {
     margin: 0 auto;
 
     header {
-      background-size: 375px;
+      background-size: 502px;
     }
 
     .woman {
       height: 281px;
-      top: 12.5%;
+      top: 11.5%;
       right: 15.2%;
     }
     .title h1 {
@@ -309,7 +307,7 @@ body {
     }
     .group_medium {
       position: absolute;
-      top: 24%;
+      top: 23%;
       right: 8%;
       display: block;
     }
@@ -325,18 +323,40 @@ body {
     .graph_bottom_medium {
       position: absolute;
       display: block;
-      top: 20%;
+      top: 18.8%;
     }
     .graph_top_medium {
       position: absolute;
       display: block;
-      top: 20%;
+      top: 18.8%;
     }
     .list li {
       padding: 16px 0;
     }
+    .list {
+      margin-bottom: 19px;
+    }
     .title {
       margin-bottom: 45px;
+    }
+    .star {
+      width: 21px;
+      height: 21px;
+    }
+    .stars {
+      margin-bottom: 8px;
+    }
+    .comments_text {
+      font-size: 17px;
+      padding-bottom: 25px;
+      padding-left: 6px;
+    }
+    .name {
+      margin-left: 170px;
+    }
+    .comment_block {
+      margin-bottom: 2px;
+      margin-top: 4px;
     }
   }
 }

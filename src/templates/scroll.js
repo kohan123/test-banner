@@ -4,6 +4,14 @@ export const initSlider = () => {
   const slider = tns({
     container: ".scroll",
     items: 1,
+    responsive: {
+      320: {
+        fixedWidth: 280,
+      },
+      375: {
+        fixedWidth: 335,
+      },
+    },
     slideBy: "page",
     mouseDrag: true,
     swipeAngle: false,
